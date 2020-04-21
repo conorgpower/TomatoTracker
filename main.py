@@ -20,8 +20,7 @@ import cv2
 import tensorflow as tf
 
 categories = ['Tomato_Septoria_leaf_spot', 
-              'Potato___Early_blight', 
-              'Tomato_Spider_mites_Two_spotted_spider_mite',
+              'Potato___Early_blight',
               'Pepper__bell___healthy']
 
 def prepare(image_directory):
@@ -119,8 +118,9 @@ def main():
     image_url = f'https://tomato-tracker-images.s3-eu-west-1.amazonaws.com/{prediction_category}-{timestamp}.jpg'
     smtp_result = sendEmail(prediction_category, image_url)
 
-    if smtp_result == 'Email sent!' {
+    if (smtp_result == 'Email sent!'):
         print("PROCESS SUCCESSFULLY COMPLETED!")
-    } else {
+    else:
         print("PROCESS FAILED!")
-    }
+
+main()
