@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.0 - 28-04-2020 ***(Merged)***
+  - RELEASE - [release/2.0.0] - Release 2.0.0, fully functional system.
+
+## 1.5.0 - 28-04-2020 ***(Merged)***
+  - TASK - [feature/devOps_2] - Code.
+
 ## 1.4.0 - 21-04-2020 ***(Merged)***
   - TASK - [feature/devOps_1] - Main scirpt added to execute all functionality.
 
