@@ -4,7 +4,7 @@
   - RELEASE - [release/2.0.0] - Release 2.0.0, fully functional system.
 
 ## 1.5.0 - 28-04-2020 ***(Merged)***
-  - TASK - [feature/devOps_2] - Code.
+  - TASK - [feature/devOps_2] - Code cleanup, organize and corrections.
 
 ## 1.4.0 - 21-04-2020 ***(Merged)***
   - TASK - [feature/devOps_1] - Main scirpt added to execute all functionality.
