@@ -1,9 +1,24 @@
 # Changelog
 
+## 1.4.0 - 21-04-2020 ***(Merged)***
+  - TASK - [feature/devOps_1] - Main scirpt added to execute all functionality.
+
+## 1.3.0 - 06-04-2020 ***(Merged)***
+  - TASK - [feature/CloudStorage_1] - AWS S3 script added.
+
+## 1.2.0 - 06-04-2020 ***(Merged)***
+  - TASK - [feature/NeuralNetwork_5] - Classification using model added.
+
+## 1.1.0 - 02-04-2020 ***(Merged)***
+  - TASK - [feature/NeuralNetwork_4] - Data exploration and preprocessing.
+
+## 1.0.0 - 04-03-2020 ***(Merged)***
+  - RELEASE - [release/1.0.0] - Model built and saved.
+
 ## 1.0.0 - 03-03-2020 ***(Merged)***
   - TASK - [feature/NeuralNetwork_3] - Model built and saved.
 
-## 0.5.0 - 02-03-2020 ***(Merged)***
+## 0.6.0 - 02-03-2020 ***(Merged)***
   - TASK - [feature/NeuralNetwork_2] - Model architecture built.
 
 ## 0.4.0 - 25-10-2020 ***(Merged)***

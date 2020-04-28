@@ -83,7 +83,7 @@ def sendEmail(prediction_category, image_url):
 
         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
         server.ehlo()
-        server.login(gmail_user, gmail_password)
+        server.login(prv.getEmail(), prv.getPassword())
         server.sendmail(sent_from, to, email_text)
         server.close()
 
@@ -103,7 +103,7 @@ def main():
     # Image that would be used in case of capturing live image
     image_directory = captureImage()
 
-    # Image used for demonstration purposes
+    # Image used for demonstration purposesgmail_user
     image_directory = '/home/pi/Desktop/TomatoTracker/input/plantdisease/PlantDisease/Potato___Early_blight/001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.JPG'
     
     # Classify Image
